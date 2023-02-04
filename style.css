@@ -1,0 +1,324 @@
+body{
+    background-image: url("gris.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.circular--square {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.perfil{
+    display: block;
+    width: 500px;
+    position: relative;
+    margin:  auto;
+    border-radius: 50%;
+}
+
+/*Boton LinkedIn*/
+.linkedin{
+    position: absolute;
+    right: 35.5%;
+    bottom: 47%;
+    font-size: 33px;
+}
+.btn-linkedin {
+  background: transparent;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+  color: #fff;
+  text-shadow: -3px 3px 2px black
+}
+
+/*Informacion*/
+.datos{
+    
+    text-shadow: 20px 15px 7px black;
+}
+
+.name h1{
+    position: absolute;
+    left: 27px;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.name h2{
+    position: absolute;
+    left: 8.5%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+
+}
+
+.years h1{
+    position: absolute;
+    left: 58%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.years h2{
+    position: absolute;
+    left: 62.5%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.phone h1{
+    position: absolute;
+    left: 27px;
+    bottom: 51%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.phone h2{
+    position: absolute;
+    left: 5%;
+    bottom: 51%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.correo h1{
+    position: absolute;
+    left: 58%;
+    bottom: 51%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.correo h2{
+    position: absolute;
+    left: 62.7%;
+    bottom: 51%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.adress h1{
+    position: absolute;
+    left: 27px;
+    bottom: 47%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.adress h2{
+    position: absolute;
+    left: 9%;
+    bottom: 47%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+p{
+    font-size: 35px;
+    text-shadow: -3px 3px 2px black;
+}
+
+/*texto*/
+.about{
+    position: absolute;
+    bottom: 27%;
+    left: 2%;
+}
+
+.about h1{
+    font-size: 40px;
+    text-shadow: -3px 3px 2px black;
+}
+
+/* conf. tabla*/
+
+h3{
+    bottom: 20%;
+    position: absolute;
+    left: 13%;
+    font-size: 38px;
+    text-shadow: -3px 3px 2px black;
+}
+
+/*Tabla de Establecimientos y años*/
+
+table{
+    position: absolute;
+    margin: 0 30px;
+    font-size: 30px;
+    bottom: 4%    
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-shadow: 2px 3px 2px black;
+}
+
+/*Habilidades*/
+
+h4{
+    position: absolute;
+    right: 42%;
+    bottom: 20%;
+    font-size: 38px;
+    text-shadow: -3px 3px 2px black;
+}
+
+
+.skills{
+    position: absolute;
+    bottom: 3%;
+    right: 21%;
+    font-size: 33px;
+    text-shadow: -3px 3px 2px black;
+}
+
+.infor1::after{
+    content: "★★★★★";
+}
+
+.infor2::after{
+    content: "★★";
+}
+
+.infor3::after{
+    content: "★★★";
+}
+
+.grupo::after{
+    content: "★★★";
+}
+
+.lenguaje::after{
+    content: "★★★★★";
+}
+
+@media screen and (max-width:480px){
+
+    .perfil{
+        right: -21%;
+        position: relative;
+    }
+
+    .linkedin {
+        position: absolute;
+        left: 124%;
+        top: 48%;
+        bottom: 48.5%;
+        font-size: 33px;
+    }
+
+    .name h1{
+        left: 4%;
+        top: 48%;
+    }
+
+    .name h2 {
+        position: absolute;
+        left: 38%;
+        top: 48%;
+    }
+
+    .years h1 {
+        left: 124%;
+        bottom: 43%;
+    }
+
+    .years h2 {
+        position: absolute;
+        left: 145%;
+        bottom: 43%;
+    }
+
+    .phone h1 {
+        position: absolute;
+        left: 4%;
+        bottom: 43%
+    }
+
+    .phone h2{
+        position: absolute;
+        left: 23%;
+        bottom: 43%;
+    }
+
+    .correo h1{
+        left: 4%;
+        bottom: 38%;
+    }
+
+    .correo h2{
+        left: 29%;
+        bottom: 38%;
+    }
+
+    .adress h1{
+        left: 4%;
+        bottom: 33%;
+    }
+
+    .adress h2{
+        left: 42%;
+        bottom: 33%;
+    }
+
+    .about {
+        position: absolute;
+        bottom: -16%;
+        right: -49%;
+    }
+    
+    .about h1{
+        position: absolute;
+    bottom: 101%;
+    right: 64%;
+    }
+    h3 {
+        position: absolute;
+        bottom: -21%;
+        left: 4%;
+        font-size: 38px;
+        text-shadow: -3px 3px 2px black;
+    }
+
+    table {
+        position: absolute;
+        margin: 0 30px;
+        font-size: 27px;
+        bottom: -50%;
+        left: -4.5%;
+    }
+
+    h4 {
+        position: absolute;
+        left: 4%;
+        bottom: -56%;
+        font-size: 36px;
+    }
+
+    .skills{
+        position: absolute;
+        right: -56%;
+        top: 155%;
+        font-size: 32px
+    }
+}
